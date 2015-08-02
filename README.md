@@ -3,7 +3,6 @@
 The goal of the exercise is to give you a better understanding of the differences in performance of sequential and parallel stream processing.
 
 * **Part 1**: A file called “words” is provided containing a large collection of words. A template file, RandomWords.java, is also provided. In the constructor you need to read all the words (which are one per line) from the source file into a list (remember to use a stream to do this).
-
 You also need to write the body of the createList() method. This generates a list of the size specified as a parameter selecting words at random from the list read in the constructor. 
 
 * **Part 2**: In order to provide a relatively compute-intensive task we will calculate the Levenshtein distance between two strings. This distance is a measure of how many changes need to be made to the first string to convert it to the second string (see https://en.wikipedia.org/wiki/Levenshtein_distance for a more detailed description of what this involves). Since we’re focusing on streams programming, a source file, Levenshtein.java containing a lev() function is provided that will calculate the distance for you.
